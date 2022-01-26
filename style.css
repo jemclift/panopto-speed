@@ -1,0 +1,26 @@
+input[type=range].speed-slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: calc(100% - 30px);
+}
+
+input[type=range].speed-slider::-moz-range-track {
+  background-color: #cccccc;
+  height: 100%;
+  border: 17px solid white;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+}
+
+input[type=range].speed-slider::-moz-range-thumb {
+  background: #ecf0f1;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
