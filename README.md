@@ -13,4 +13,4 @@ with a slider from 0.2x to 4x speed.
 
 You can download Panopto Speed here:
 
-https://addons.mozilla.org/en-GB/firefox/addon/panopto-speed/
+https://addons.mozilla.org/firefox/addon/panopto-speed/
