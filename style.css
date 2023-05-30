@@ -1,10 +1,18 @@
+/* move speed select popup left to uncover speed value */
+
+#playSpeedExpander {
+  transform: translateX(-50px);
+}
+
+/* style speed slider */
+
 input[type=range].speed-slider {
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   height: 100%;
-  width: calc(100% - 30px);
+  width: 100%;
 }
 
 input[type=range].speed-slider::-moz-range-track {

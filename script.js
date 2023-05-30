@@ -1,8 +1,13 @@
 // changes speed of playback
 
 function speed(playbackRate) {
-  document.getElementsByTagName("video")[0].playbackRate = playbackRate;
-  document.getElementsByTagName("video")[1].playbackRate = playbackRate;
+
+  let videos = document.getElementsByTagName("video");
+  
+  for (let video of videos) {
+    video.playbackRate = playbackRate
+  }
+
   document.getElementById('playSpeedMultiplier').innerText = playbackRate+'x';
 }
 
